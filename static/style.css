@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left, .right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message_form{
+    display: flex;
+    flex-direction: column;
+}
+#message_form input{
+    margin-bottom: 30px;
+}
+
+#all_messages{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    flex-direction: column;
+}
